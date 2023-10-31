@@ -1,0 +1,131 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+    <style type="text/css">
+
+   *
+   {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+   #logo-div
+   {
+    width: 100%;
+    min-height: 100px;
+    background-color: lightgray;
+    padding-left: 2%;
+    line-height: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+   }
+
+   #nav-div
+   {
+      width: 100%;
+      min-height: 40px;
+      background-color: gray;
+      text-align: center;
+      line-height: 40px;
+      margin-bottom: 10px;
+   }
+
+   #header-banner-div
+   {
+      width: 100%;
+      min-height: 100px;
+      background-color: lightgray;
+      line-height: 100px;
+      text-align: center;
+      margin-bottom: 10px;
+
+   }
+
+   #main-div
+   {
+    width: 100%;
+    margin-bottom: 10px;
+   }
+
+   #sidebar-div
+   {
+    width: 24%;
+    min-height: 400px;
+    background-color: gray;
+    float: left;
+    text-align: center;
+    line-height: 400px;
+   }
+
+   #body-area-div
+   {
+    width: 75%;
+    min-height: 400px;
+    background-color: gray;
+    float: right;
+    text-align: center;
+    line-height: 400px;
+   }
+
+   .clearfix::after
+   {
+    content: "";
+    display: block;
+    clear: both;
+   }
+
+   #footer-div
+   {
+    width: 100%;
+    min-height: 50px;
+    background-color: lightgray;
+    line-height: 50px;
+    text-align: center;
+
+   }
+
+   #wrapper-div
+   {
+    width: 100%;
+    margin: auto;
+
+   }
+
+    </style>
+
+<body>
+
+<div id="wrapper-div">
+  <div id="logo-div">
+    Logo
+  </div>
+
+  <div id="nav-div">
+    Navigation
+  </div>
+
+  <div id="header-banner-div">
+    Header/banner
+  </div>
+
+  <div id="main-div" class="clearfix">
+      <div id="sidebar-div">
+        Sidebar
+      </div>
+      <div id="body-area-div">
+        Body Area
+      </div>
+  </div>
+  
+  <div id="footer-div">
+    footer
+  </div>
+</div>
+
+</body>
+</html>
