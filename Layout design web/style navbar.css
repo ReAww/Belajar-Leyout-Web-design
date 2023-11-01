@@ -23,7 +23,7 @@ body {
     padding: 15px;
     width: 100%;
     height: 80px;
-    background-color: black;
+    background-color: darkred;
     box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 1);
 }
 
@@ -71,13 +71,13 @@ body {
     transition: all .3s ease-in-out;
 }
 
-.navigation>li>img {
+.navigation>li>a>img {
     width: 50px;
     height: 50px;
     border-radius: 50px;
 }
 
-.navigation>li>img:hover {
+.navigation>li>a>img:hover {
     width: 65px;
     height: 65px;
     border-radius: 65px;
